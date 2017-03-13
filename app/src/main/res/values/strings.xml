@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Application Rating</string>
+
+    <string name="rateApp">Would you support the application with 5 stars, please?</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Application Rating</string>
+
+    <!-- shared preferences -->
+    <string name="sharedPreferences">APPLICATION_RATING_PREFS</string>
+    <string name="pref_beforeRatingViewingNumber">BEFORE_VIEWING_RATING_NUMBER</string>
+</resources>
