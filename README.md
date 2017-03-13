@@ -9,6 +9,8 @@ Application rating dialog is shown after given times (frequency) of trigger. The
 Texts of the rating dialog are customizable. Default frequency is set to 30, but can be customized, too, to your heart's desire.
 
 
+# Licence
+
 Copyright (C) 2017 Ferid Cafer
 
 Licensed under the Apache License, Version 2.0 (the "License");
