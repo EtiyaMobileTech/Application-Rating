@@ -2,6 +2,13 @@
 
 This is a library for Android applications, which asks users to rate the given application in Play Store.
 
+The way it works:
+
+Application rating dialog is shown after given times (frequency) of trigger. The lib can be called from onCreate, onStart, onResume, click event, or any type of event. Each time the lib is called, the counter increments towards the given frequency. After reaching the frequency, it will ask user whether to rate the application or not. If user says yes, it will open your application's Play Store page, and the rating dialog will never be shown again. If user says no, the rating dialog will re-appear after another cycle of the given frequency.
+
+Texts of the rating dialog are customizable. Default frequency is set to 30, but can be customized, too, to your heart's desire.
+
+
 Copyright (C) 2017 Ferid Cafer
 
 Licensed under the Apache License, Version 2.0 (the "License");
