@@ -10,8 +10,9 @@ Texts of the rating dialog are customizable. Default frequency is set to 30, but
 
 Example usage:
 
-ApplicationRating.initRatingPopupManager(this, 10, getString(R.string.rateApp),
-                getString(R.string.yes), getString(R.string.no));
+ApplicationRating.initRatingPopupManager(context, 10, 
+				"Would you support the application with 5 stars, please?",
+                "YES", "NO");
 
 
 # Licence
