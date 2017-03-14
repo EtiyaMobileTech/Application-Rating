@@ -9,14 +9,14 @@ Application rating dialog is shown after given times (frequency) of trigger. The
 Texts of the rating dialog are customizable. Default frequency is set to 30, but can be customized, too.
 
 Example usage:
-'''java
+```java
 ApplicationRating.initRatingPopupManager(context, 10,<br /> 
 				"Would you support the application with 5 stars, please?",<br />
                 "YES", "NO");
-'''
+```
 				
 **Gradle**
-'''
+```
 dependencies {<br />
     compile 'com.ferid.lib.applicationrating:application-rating:1.0.0'<br />
 }
@@ -26,7 +26,7 @@ repositories {<br />
         url  "http://feridsourcebin.bintray.com/EtiyaApplicationRating"<br />
     }<br />
 }
-'''
+```
 
 # Licence
 
