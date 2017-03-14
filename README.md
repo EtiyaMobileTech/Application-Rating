@@ -16,8 +16,8 @@ ApplicationRating.initRatingPopupManager(context, 10,
 				
 Gradle:
 
-dependencies {\n
-    compile 'com.ferid.lib.applicationrating:application-rating:1.0.0'\n
+dependencies {<br />
+    compile 'com.ferid.lib.applicationrating:application-rating:1.0.0'
 }
 
 repositories {
