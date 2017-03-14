@@ -10,20 +10,20 @@ Texts of the rating dialog are customizable. Default frequency is set to 30, but
 
 Example usage:
 
-ApplicationRating.initRatingPopupManager(context, 10, 
-				"Would you support the application with 5 stars, please?",
+ApplicationRating.initRatingPopupManager(context, 10,<br /> 
+				"Would you support the application with 5 stars, please?",<br />
                 "YES", "NO");
 				
 Gradle:
 
 dependencies {<br />
-    compile 'com.ferid.lib.applicationrating:application-rating:1.0.0'
-}
+    compile 'com.ferid.lib.applicationrating:application-rating:1.0.0'<br />
+}<br />
 
-repositories {
-    maven {
-        url  "http://feridsourcebin.bintray.com/EtiyaApplicationRating"
-    }
+repositories {<br />
+    maven {<br />
+        url  "http://feridsourcebin.bintray.com/EtiyaApplicationRating"<br />
+    }<br />
 }
 
 
