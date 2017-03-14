@@ -46,9 +46,9 @@ public class ApplicationRating {
      * @param context Context
      * @param frequency Usage frequency (default is 30)
      * @param message Alert message to show (can be null)
-     * @param positiveButtonText Positive button's text (yes).<br />
+     * @param positiveButtonText Positive button's text (yes).
      *                           Opens play store and never asks again
-     * @param negativeButtonText Negative button's text (no).<br />
+     * @param negativeButtonText Negative button's text (no).
      *                           Asks again later after given number of frequency
      */
     public static void initRatingPopupManager(Context context, int frequency, String message,

@@ -1,0 +1,39 @@
+apply plugin: 'com.github.dcendents.android-maven'
+
+group = 'com.ferid.lib.applicationrating' // CREATE A GROUP ID FOR YOUR LIBRARY
+
+install {
+    repositories.mavenInstaller {
+        pom {
+            project {
+                packaging 'aar'
+                groupId 'com.ferid.lib.applicationrating' // CREATE A GROUP ID FOR YOUR LIBRARY
+                artifactId 'application-rating' // THE NAME OF YOUR MODULE
+
+                name 'EtiyaApplicationRating' // YOUR LIBRARY NAME
+                description 'This is a library for Android applications, which asks users to rate the given application in Play Store.' // YOUR LIBRARY DESCRIPTION
+                url 'https://github.com/feridsource/Application-Rating' // YOUR SITE
+
+                licenses {
+                    license {
+                        name 'The Apache Software License, Version 2.0'
+                        url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+                    }
+                }
+                developers {
+                    developer {
+                        id 'feridsource' //YOUR ID
+                        name 'Ferid Cafer' //YOUR NAME
+                        email 'ferid.developer@gmail.com' //YOUR EMAIL
+                    }
+                }
+                scm {
+                    connection 'https://github.com/feridsource/Application-Rating.git' // YOUR GIT REPO
+                    developerConnection 'https://github.com/feridsource/Application-Rating.git' // YOUR GIT REPO
+                    url 'https://github.com/feridsource/Application-Rating' // YOUR SITE
+
+                }
+            }
+        }
+    }
+}
