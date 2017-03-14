@@ -8,7 +8,7 @@ Application rating dialog is shown after given times (frequency) of trigger. The
 
 Texts of the rating dialog are customizable. Default frequency is set to 30, but can be customized, too.
 
-Example usage:
+**Sample Code**
 ```java
 ApplicationRating.initRatingPopupManager(context, 10,
 				"Would you support the application with 5 stars, please?", 
