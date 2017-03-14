@@ -1,4 +1,4 @@
-# Application Rating
+# Etiya Application Rating
 
 This is a library for Android applications, which asks users to rate the given application in Play Store.
 
