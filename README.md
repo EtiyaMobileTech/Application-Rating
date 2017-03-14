@@ -11,8 +11,8 @@ Texts of the rating dialog are customizable. Default frequency is set to 30, but
 Example usage:
 ```java
 ApplicationRating.initRatingPopupManager(context, 10,
-				"Would you support the application with 5 stars, please?",
-                "YES", "NO");
+				"Would you support the application with 5 stars, please?", 
+				"YES", "NO");
 ```
 				
 **Gradle**
