@@ -13,6 +13,18 @@ Example usage:
 ApplicationRating.initRatingPopupManager(context, 10, 
 				"Would you support the application with 5 stars, please?",
                 "YES", "NO");
+				
+Gradle:
+
+dependencies {
+    compile 'com.ferid.lib.applicationrating:application-rating:1.0.0'
+}
+
+repositories {
+    maven {
+        url  "http://feridsourcebin.bintray.com/EtiyaApplicationRating"
+    }
+}
 
 
 # Licence
