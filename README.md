@@ -12,7 +12,7 @@ Example usage:
 ```java
 ApplicationRating.initRatingPopupManager(context, 10,
 				"Would you support the application with 5 stars, please?", 
-					"YES", "NO");
+				"YES", "NO");
 ```
 				
 **Gradle**
