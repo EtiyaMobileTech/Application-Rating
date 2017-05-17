@@ -17,15 +17,16 @@ ApplicationRating.initRatingPopupManager(context, 10,
 				
 **Gradle**
 ```
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+	
 dependencies {
-    compile 'com.ferid.lib.applicationrating:application-rating:1.0.0'
-}
-
-repositories {
-    maven {
-        url  "http://feridsourcebin.bintray.com/EtiyaApplicationRating"
-    }
-}
+	        compile 'com.github.feridsource:Application-Rating:1.0.0'
+	}
 ```
 
 # Licence
