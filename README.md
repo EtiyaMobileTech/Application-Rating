@@ -18,15 +18,15 @@ ApplicationRating.initRatingPopupManager(context, 10,
 **Gradle**
 ```
 allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
 	}
+}
 	
 dependencies {
-	        compile 'com.github.feridsource:Application-Rating:1.0.0'
-	}
+	compile 'com.github.feridsource:Application-Rating:1.0.0'
+}
 ```
 
 # Licence
